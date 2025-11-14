@@ -25,7 +25,7 @@ class IncomeListScreen extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.swap_horiz),
             tooltip: 'Перейти к расходам',
-            onPressed: () => context.push('/expenses'),
+            onPressed: () => context.go('/expenses'),
           ),
         ],
       ),
